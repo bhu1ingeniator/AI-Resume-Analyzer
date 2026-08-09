@@ -1,7 +1,11 @@
 # AI Resume Analyzer
 
 An intelligent resume analysis web application that analyzes PDF resumes, identifies relevant skills, calculates a resume score, and provides suggestions to improve the resume.
+### Resume Upload
 <img width="1366" height="768" alt="Screenshot (286)" src="https://github.com/user-attachments/assets/3753359b-9080-4b0e-bc1b-3d28260d024c" />
+### Analysis Result
+<img width="771" height="1434" alt="image" src="https://github.com/user-attachments/assets/33033d95-52ab-489e-9261-23222c46e46d" />
+
 
 ## Features
 
