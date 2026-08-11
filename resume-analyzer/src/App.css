@@ -1,0 +1,134 @@
+body{
+background: linear-gradient(135deg,#74ebd5,#ACB6E5);
+font-family: Arial;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+background:white;
+border-radius:15px;
+padding:40px;
+width:700px;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+text-align:center;
+}
+
+button{
+background: linear-gradient(135deg,#4CAF50,#66bb6a);
+border:none;
+padding:12px 25px;
+border-radius:8px;
+color:white;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+margin-top:10px;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+.result{
+margin-top:30px;
+}
+.progress-bar{
+background:#ddd;
+border-radius:20px;
+height:25px;
+overflow:hidden;
+}
+
+.progress{
+background:linear-gradient(90deg,#4CAF50,#2ecc71);
+height:100%;
+color:white;
+text-align:center;
+line-height:25px;
+font-weight:bold;
+transition:width 0.3s ease;
+}
+.skill-badge{
+display:inline-block;
+background:#4CAF50;
+color:white;
+padding:6px 12px;
+margin:5px;
+border-radius:20px;
+font-size:14px;
+}
+.missing-badge{
+display:inline-block;
+background:#ff5252;
+color:white;
+padding:6px 12px;
+margin:5px;
+border-radius:20px;
+font-size:14px;
+}
+canvas{
+max-width:300px;
+margin:20px auto;
+}
+.suggestion-box{
+background:#f5f7ff;
+border-left:4px solid #4CAF50;
+padding:15px;
+margin-top:20px;
+border-radius:8px;
+}
+
+.suggestion-box li{
+margin:5px 0;
+}
+.suggestion-badge{
+display:block;
+background:#eef4ff;
+border-left:4px solid #4CAF50;
+padding:10px;
+margin:8px 0;
+border-radius:6px;
+}
+.drop-zone{
+border:2px dashed #4CAF50;
+padding:30px;
+margin:20px auto;
+border-radius:12px;
+background:#f8fff8;
+cursor:pointer;
+transition:0.3s;
+}
+
+.drop-zone:hover{
+background:#f0fff0;
+}
+.download-btn{
+margin-top:20px;
+padding:10px 20px;
+background:#2196F3;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-size:15px;
+}
+
+.download-btn:hover{
+background:#1976D2;
+}
+button{
+background: linear-gradient(135deg,#4CAF50,#66bb6a);
+border:none;
+padding:12px 25px;
+border-radius:8px;
+color:white;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+}
