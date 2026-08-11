@@ -4,7 +4,7 @@ An AI-powered resume analysis web application that allows users to upload their 
 
 ## Live Demo
 
-[View Live Application](https://ai-resume-analyzer-front-spnh.onrender.com)
+[View Live Application](https://ai-resume-analyzer-frontend-spnh.onrender.com)
 
 ## Features
 
