@@ -1,53 +1,62 @@
 # AI Resume Analyzer
 
-An intelligent resume analysis web application that analyzes PDF resumes, identifies relevant skills, calculates a resume score, and provides suggestions to improve the resume.
+An AI-powered resume analysis web application that allows users to upload their resumes and receive automated analysis through a React frontend and Python backend.
 
-## Analysis Result
-<img width="771" height="1434" alt="image" src="https://github.com/user-attachments/assets/33033d95-52ab-489e-9261-23222c46e46d" />
+## Live Demo
 
+[View Live Application](https://ai-resume-analyzer-front-spnh.onrender.com)
 
 ## Features
 
-- Upload resumes in PDF format
-- Extract resume text automatically
-- Detect relevant technical and soft skills
-- Calculate a resume skill score
-- Identify missing skills
-- Generate suggestions for improvement
-- Simple and user-friendly web interface
-- React frontend with Flask backend
+- Upload resumes through a simple web interface
+- Drag-and-drop resume upload
+- Automated resume analysis
+- React-based frontend
+- Python backend API
+- REST API communication between frontend and backend
+- Responsive and user-friendly interface
+- Production deployment using Render
 
 ## Tech Stack
 
 ### Frontend
+
 - React.js
 - JavaScript
-- Axios
 - HTML5
 - CSS3
+- Axios
 
 ### Backend
+
 - Python
 - Flask
-- Flask-CORS
-- pdfplumber
+- Gunicorn
 
-## Project Structure
+### Deployment
+
+- GitHub
+- Render
+
+## Project Architecture
 
 ```text
 AI-Resume-Analyzer/
 │
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   ├── package.json
-│   └── package-lock.json
-│
-├── backend/
+├── python/
 │   ├── app.py
 │   └── requirements.txt
 │
+├── resume-analyzer/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   ├── index.js
+│   │   └── index.css
+│   ├── package.json
+│   └── package-lock.json
+│
+├── result.png
 ├── .gitignore
-├── README.md
-├── .env.example
-└── LICENSE
+└── README.md
